@@ -1,0 +1,2 @@
+﻿Job 'LoadCsvFiles' : Step 2, 'bulk_insert' : Began Executing 2025-08-13 21:15:00
+
