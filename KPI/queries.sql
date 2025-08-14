@@ -76,7 +76,6 @@ FROM vw_SalesByCategory
 WHERE order_date BETWEEN @StartDate AND @EndDate
 ORDER BY total_revenue DESC;
 
--- нет отдельной SP для категорий
 
 ---------------------------------------------------
 -- 6. Sales by Brand
@@ -88,7 +87,6 @@ WHERE order_date BETWEEN @StartDate AND @EndDate
 GROUP BY brand_name
 ORDER BY Revenue DESC;
 
--- нет отдельной SP для брендов
 
 ---------------------------------------------------
 -- 7. Staff Revenue Contribution
